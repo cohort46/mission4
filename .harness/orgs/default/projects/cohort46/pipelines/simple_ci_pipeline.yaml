@@ -12,3 +12,6 @@ pipeline:
     enabled: true
     repo: cohort46/mission4
     connector: project_level_github_connector
+    ref:
+      type: branch
+      name: main

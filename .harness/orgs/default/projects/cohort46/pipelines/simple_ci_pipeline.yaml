@@ -6,6 +6,8 @@ pipeline:
             container:
               image: bash
               connector: project_level_dockerhub_connector
+        - run:
+            script: echo "Boo!"
       name: build_stage
       id: build_stage
   clone:
